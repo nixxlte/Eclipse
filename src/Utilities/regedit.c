@@ -1,12 +1,12 @@
-// Code by Nixx UwU
-
 #include "Registry.h"
 #include "../Modules/ASCM.h"
 #include "Regedit.h"
 #include "../Modules/Keyboard.h"
-#include "../Modules/Console.h"   // Console commands, like Write("hello, world");
+#include "../Modules/Console.h"   // Console commands, like Writeline("hello, world"); :3
 
 #include <string.h>
+
+// Code by NyanRay64 =3
 
 static RegistryEntry* current = &root_registry;
 
@@ -50,7 +50,7 @@ void regbeta_init() {
                 WriteLine("Key not found");
             }
         } else if (strncmp(buffer, "mk ", 3) == 0) {
-            // cria subchave
+            // create subkey
             char* name = buffer + 3;
             create_key(current, name, "");
             WriteLine("Key created");

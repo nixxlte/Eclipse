@@ -5,6 +5,8 @@
 #include "../Utilities/regedit.h"
 #include "../Utilities/registry.h"
 
+// Code by NyanRay64 =3
+
 // This is my favorite part, do VERIFICATIONS, this part is good cause i did a lot of other commands
 // so now this part is made by a high-level language, and not low-level C, cause now exists some easier commands
 
@@ -14,7 +16,7 @@ void shell_execute(const char *input) {
         WriteLine("clr --> clears the console");
         WriteLine("write --> writes something on console");
     } else if (strcmp(input, "clr") == 0) {
-        console_clear();
+        Clear();
         entry();
     } else if (strcmp(input, "about") == 0) {
         WriteLine(" Eclipse kernel");
@@ -22,7 +24,7 @@ void shell_execute(const char *input) {
         Write(version);
     } else if (input[0] == 0) {
         return;
-        // if u dont type anything, the code doesnt do nothing, what are u expecting??
+        // if u dont type anything, the code doesnt do nothing, what were u expecting??
     } else if (strcmp(input, "write")) {
         WriteLine("this command intentionally doesn't exist for now");
     } else if (strcmp(input, "regedit")) {
