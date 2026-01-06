@@ -13,9 +13,9 @@
 void shell_execute(const char *input) {
     if (strcmp(input, "help") == 0) {
         WriteLine(" Avaible commands:");
-        WriteLine("clr --> clears the console");
+        WriteLine("console.clear --> clears the console");
         WriteLine("write --> writes something on console");
-    } else if (strcmp(input, "clr") == 0) {
+    } else if (strcmp(input, "console.clear") == 0) {
         Clear();
         entry();
     } else if (strcmp(input, "about") == 0) {

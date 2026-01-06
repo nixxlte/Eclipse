@@ -34,6 +34,10 @@ void startup() {
     Clear();
 }
 
+void thread_waitcommand() {
+    Write("> ");
+}
+
 void Update() {
     // this is empty for now >///<
 }
