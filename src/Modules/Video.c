@@ -1,6 +1,6 @@
 // This is part of the modules, and... yes, this is the same organization that i use for kernelMod
 
-// Code by NyanRay64 =3
+// Code by imNyan.T64 -w-
 
 #include <stdint.h>
 

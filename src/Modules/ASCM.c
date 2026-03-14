@@ -1,4 +1,4 @@
-// Code by Nixx UwU
+// Code by imNyan.T64 -w-
 
 #include "ASCM.h"
 #include "Video.h"
@@ -18,7 +18,7 @@ static const char art_extd_vline[] = // an... extended version of the vertical l
 "|\n"
 "|\n"
 "|\n"
-"|\n";
+"|";
 
 typedef struct {
   const char *name;
@@ -63,4 +63,4 @@ void ASCM_Show(const char *name) {
   Console_WriteLine(name);
 }
 
-// okay, i think ill never understand this code... i just... search how to do this on the internet :p
+// okay, i think ill never understand this code... i just... search how to do this on the internet :P

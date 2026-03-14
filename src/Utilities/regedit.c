@@ -6,7 +6,7 @@
 
 #include <string.h>
 
-// Code by NyanRay64 =3
+// Code by imNyan.T64 -w-
 
 static RegistryEntry* current = &root_registry;
 

@@ -9,7 +9,7 @@
 #define VGA_HEIGHT 25
 #define VGA_MEMORY 0xB8000
 
-// Code by NyanRay64 =3
+// Code by imNyan.T64 -w-
 
 uint16_t* terminal_buffer = (uint16_t*)VGA_MEMORY;
 int terminal_row = 0;

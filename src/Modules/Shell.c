@@ -5,7 +5,7 @@
 #include "../Utilities/regedit.h"
 #include "../Utilities/registry.h"
 
-// Code by NyanRay64 =3
+// Code by imNyan.T64 -w-
 
 // This is my favorite part, do VERIFICATIONS, this part is good cause i did a lot of other commands
 // so now this part is made by a high-level language, and not low-level C, cause now exists some easier commands

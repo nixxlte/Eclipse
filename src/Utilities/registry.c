@@ -1,4 +1,4 @@
-// Code by Nixx UwU
+// Code by imNyan.T64 -w-
 
 #include "Registry.h"
 #include <stdlib.h>
